@@ -33,9 +33,9 @@ Please also send us your `output.json`.
 * Please de-dupe your data. We don’t want to see the same product twice, even if it’s listed twice on the website.
 * Make sure that all product variants are captured. Each colour variant should be treated as a separate product.
 * Device capacity should be captured in MB for all products (not GB)
-* The final output should be an array of products, outputted to output.json
+* The final output should be an array of products, outputted to `output.json`
 * Don’t forget the pagination!
-* You will be assessed both on successfully generating the correct output data in output.json, and also on the quality of your code.
+* You will be assessed both on successfully generating the correct output data in `output.json`, and also on the quality of your code.
 
 ### Useful Resources
 * https://symfony.com/doc/current/components/dom_crawler.html
@@ -50,8 +50,8 @@ Please also send us your `output.json`.
 ### Setup
 
 ```
-git clone git@github.com:stickeeuk/magpie-scrape-challenge.git
-cd magpie-scrape-challenge
+git clone https://github.com/stickeeuk/magpie-developer-challenge.git
+cd magpie-developer-challenge
 composer install
 ```
 
