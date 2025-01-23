@@ -30,12 +30,12 @@ You can share your code with us by email, or through a service like GitHub.
 Please also send us your `output.json`.
 
 ### Notes
-* Please de-dupe your data. We don’t want to see the same product twice, even if it’s listed twice on the website.
-* Make sure that all product variants are captured. Each colour variant should be treated as a separate product.
-* Device capacity should be captured in MB for all products (not GB)
-* The final output should be an array of products, outputted to `output.json`
-* Don’t forget the pagination!
-* You will be assessed both on successfully generating the correct output data in `output.json`, and also on the quality of your code.
+- [x] Please de-dupe your data. We don’t want to see the same product twice, even if it’s listed twice on the website.
+- [x] Make sure that all product variants are captured. Each colour variant should be treated as a separate product.
+- [x] Device capacity should be captured in MB for all products (not GB)
+- [x] The final output should be an array of products, outputted to `output.json`
+- [x] Don’t forget the pagination!
+- You will be assessed both on successfully generating the correct output data in `output.json`, and also on the quality of your code.
 
 ### Useful Resources
 * https://symfony.com/doc/current/components/dom_crawler.html
